@@ -1,0 +1,86 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 8%);
+
+    /* Put the card in the middle */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* Card size */
+    width: 380px;
+    padding: 40px;
+
+    /* Card background */
+    background-color: hsl(0, 0%, 12%);
+
+    /* Rounded corners */
+    border-radius: 12px;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+h5 {
+    color: hsl(75, 94%, 57%);
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-link {
+    margin: 6px;
+    padding: 12px;
+
+    width: 300px;
+
+    color: rgb(255, 255, 255);
+    background-color: hsl(0, 0%, 20%);
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+.social-link:hover {
+    background-color:rgb(255, 255, 255) ;
+    color:hsl(0, 0%, 30%) ;
+    transform: scale(1.05);
+}
